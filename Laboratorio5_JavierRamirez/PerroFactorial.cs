@@ -10,6 +10,9 @@ namespace Laboratorio5_JavierRamirez
     {
         public int Calcular(int numero)
         {
+            if (numero > 13)
+                numero = 13;
+
             int n;
             for(n = 1; numero > 0; numero--)
             {
